@@ -1,0 +1,49 @@
+{
+  "groups": [
+    {
+      "name": "shiro",
+      "type": "com.example.config.ShiroProperties",
+      "sourceType": "com.example.config.ShiroProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "shiro.anon-urls",
+      "type": "java.lang.String[]",
+      "sourceType": "com.example.config.ShiroProperties"
+    },
+    {
+      "name": "shiro.authc-urls",
+      "type": "java.lang.String[]",
+      "sourceType": "com.example.config.ShiroProperties"
+    },
+    {
+      "name": "shiro.hash-algorithm-name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.config.ShiroProperties",
+      "defaultValue": "md5"
+    },
+    {
+      "name": "shiro.hash-iterations",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.config.ShiroProperties",
+      "defaultValue": 2
+    },
+    {
+      "name": "shiro.login-url",
+      "type": "java.lang.String",
+      "sourceType": "com.example.config.ShiroProperties"
+    },
+    {
+      "name": "shiro.logout-url",
+      "type": "java.lang.String",
+      "sourceType": "com.example.config.ShiroProperties"
+    },
+    {
+      "name": "shiro.unauthorized-url",
+      "type": "java.lang.String",
+      "sourceType": "com.example.config.ShiroProperties"
+    }
+  ],
+  "hints": []
+}
